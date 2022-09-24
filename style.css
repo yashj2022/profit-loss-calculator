@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+  
+  body {
+    background-color:  #cffafe;
+    font-family: "Raleway", sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  .banner-body {
+    vertical-align: middle;
+  }
+  
+  .banner {
+    height: min-content;
+    background-color: #155e75;
+    text-align: center;
+  }
+  .subtitle {
+    padding-bottom: 28px;
+    margin-top: 12px;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  .title {
+    font-weight: bold;
+    padding-top: 31px;
+    font-size: 3.1rem;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  
+  .input {
+    padding: 17px;
+    width: 255px;
+    border-radius: 9px;
+    font-size: large;
+    margin-bottom: 7px;
+  }
+  .inputs {
+    text-align: center;
+  }
+  
+  .div-button {
+    text-align: center;
+  }
+  .button {
+    color: #fff;
+    background-color: #2e05c5;
+    padding: 15px 23px;
+    border-radius: 8px;
+  }
+  .button:hover {
+    color: rgb(238, 211, 211);
+    background-color: #2d1094;
+  }
+  .white {
+    color: rgb(21, 234, 42);
+  }
+  .black {
+    color: #090f14;
+  }
+  .red {
+    color: #cc0f35;
+    font-weight: bold;
+  }
+  
+  .num-inputs {
+    margin-top: 10px;
+  }
+  .div-button {
+    margin-top: 52px;
+  }
+  .inputs {
+    margin-top: 52px;
+  }
+  .input::placeholder {
+    opacity: 0.25;
+  }
+  .outputs {
+    margin-top: 52px;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder {
+    opacity: 0.25;
+  }
+  
+  ::-ms-input-placeholder {
+    opacity: 0.25;
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      padding: 2px;
+    }
+    .title {
+      font-size: 2.8rem;
+    }
+    .subtitle {
+      font-size: 1.1rem;
+    }
+  }
